@@ -11,3 +11,8 @@
 3. `git pull origin main`
 4. `git remote -v` verificar origen del repo
 5. `git remote set-url origin https://github.com/USERNAME/REPOSITORY.git` cambiar origen del repo
+
+## Branches
+1. `git fetch origin` otenemos las branches del repo
+2. `git branch -a` lista de las branches
+3. `git checkout -b branch origin/branch` cambiamos de branch

@@ -20,3 +20,8 @@
 
 ## Reset
 1. `git reset HEAD~1` Para cancelar un commit que no vamos sincronizar con el remoto, para unix usamos `HEAD^`
+
+## CUando hay problemas con "No same histories"
+1. `git pull origin <main-branch> --allow-unrelated-histories` permitimos que el branch Main permita las urelated histories.
+2. `git push origin <local-branch>` hecemos el push para subir los cambios.
+3. En github.com yapodemos realizar el PullRequest y luego hacer el Merge.
